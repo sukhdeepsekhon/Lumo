@@ -29,7 +29,7 @@ A sleek and modern music listening platform designed to deliver an immersive aud
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/repository-name.git
+   git clone https://github.com/sukhdeepsekhon/Lumo.git
 
 2. Navigate to the project directory:
    ```bash
