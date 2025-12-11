@@ -1640,7 +1640,19 @@
         <button class="player-button" id="shuffleBtn" title="Shuffle">
           <i class="fas fa-random"></i>
         </button>
-        <button class="player-button" id="prevBtn" title="Previous">
+        <button class="player-button" id="prevBtn" title="Previous" onclick="goTo('Player')">
+          <script>
+    function goTo(action) {
+        if (action === 'Player') {
+            // Redirects the user to the login page
+            window.location.href = './Player.html'; 
+        } else if (action === 'Player') {
+            // Redirects the user to the sign-up page
+            window.location.href = '/Player.html';
+        }
+    }
+</script>
+          
           <i class="fas fa-step-backward"></i>
         </button>
         <button class="player-button play-pause" id="playPauseBtn" title="Play/Pause">
